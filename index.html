@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Know-How Business</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://know-how.business/&size=16" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  
+<!-- Include the Firebase JavaScript SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js"></script>
+<script src="public\assets\js\auth.js"></script>
+
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        
+        <span>Know-How</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#clients">Clients</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#courses">Courses</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#elfounder">Elfounder</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="auth.html">Log in</a></li>
+        </ul>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+       <!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">We know how to build startups.</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Know-How is all you need to turn ideas into reality</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Book free 15 minutes meeting</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Some of our Clients</h2>
+          <p>Pleasure to work with</p>
+        </header>
+
+        <div class="clients-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-12.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-13.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-14.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-15.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-16.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-17.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-18.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-19.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-20.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-21.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-22.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-23.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-24.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-25.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-26.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="3000" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+       <!-- ======= About Section ======= -->
+       <section id="about" class="about">
+
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+  
+            <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+              <div class="content">
+                <h3>Who We Are</h3>
+                <h2>There's this notion that to grow a business, you have to be ruthless.</h2>
+                <p>
+                  But we know there's a better way to grow. One where what's good for the bottom line is also good for customers. We believe businesses can grow with a conscience, and succeed with a soul — and that they can do it with inbound. 
+                  That's why we've created a team of 25 years of experience to help businesses grow better every day.
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            </div>
+  
+          </div>
+        </div>
+  
+      </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Services</h2>
+          <p>We provide Consultations, Implementation & Training</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-discuss-line icon"></i>
+              <h3>BMC</h3>
+              <p>Visualize complex business issues simply and collaboratively. The Business Model Canvas is a strategic management and entrepreneurial tool. It allows you to describe, design, challenge, invent, and pivot your business model.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Financial Projections</h3>
+              <p>In order to get the attention of serious investors, it’s important to have realistic financial projections incorporated into your business plan. Projections can be a tricky business as you try to anticipate expenses while also predicting how quickly your business will grow.</p>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Fundraising</h3>
+              <p>Fundraising is key to the success of a startup but few founders are experts on raising capital. Raising capital is a core part of building a successful business. After all, having sufficient capital can mean the difference between success – a new product or expansion into a new market – or failure.</p>
+             
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+       <!-- ======= Courses Section ======= -->
+       <section id="courses" class="recent-blog-posts">
+
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+  
+          <header class="section-header">
+            <h2>Courses</h2>
+            <p>Must watch</p>
+          </header>
+  
+          <div class="row">
+  
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+                <span class="post-date">Tue, July 15</span>
+                <h3 class="post-title">How to make a great financials</h3>
+                <a href="https://youtu.be/4drzGE4x55s" target="_blank" class="readmore stretched-link mt-auto"><span>Watch here</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+                <span class="post-date">Fri, August 28</span>
+                <h3 class="post-title">The art of fundraising for startups</h3>
+                <a href="https://youtu.be/bKz80RrpGRg" target="_blank" class="readmore stretched-link mt-auto"><span>Watch here</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+                <span class="post-date">Mon, November 11</span>
+                <h3 class="post-title">How to pitch your startup</h3>
+                <a href="https://youtu.be/xDphdnaPcjM" target="_blank" class="readmore stretched-link mt-auto"><span>Watch here</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </section>
+      <!-- End courses Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Pricing</h2>
+          <p>Check our Pricing Plans</p>
+        </header>
+
+        <div class="row gy-4" data-aos="fade-left">
+
+          
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: #07d5c0;">Consultancy & Business performance check</h3>
+              <div class="price"><sup>$</sup>26<span> / 1 hr</span></div>
+              <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+              <ul>
+                <li>1 Hour</li>
+                <li>Provide Business Solutions</li>
+                <li>Tools, Docs & Hacks</li>
+                <li>Business performance check</li>
+                <li class="na">Fundraising</li>
+              </ul>
+              <a href="https://forms.gle/fYNbkJn2K43PALgd6" target="_blank" class="btn-buy">Book Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <span class="featured">Featured</span>
+              <h3 style="color: #65c600;">Starting Business</h3>
+              <div class="price"><sup>$</sup>260<span> / mo</span></div>
+              <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+              <ul>
+                <li>8 Hours</li>
+                <li>Provide Business Solutions</li>
+                <li>Tools, Docs & Hacks</li>
+                <li>Financial Solutions</li>
+                <li class="na">Fundraising</li>
+              </ul>
+              <a href="https://forms.gle/FQSLnKKwja5SVBhHA" target="_blank" class="btn-buy">Book Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #ff0071;">Building Pitch deck</h3>
+              <div class="price"><sup>$</sup>300<span> / mo</span></div>
+              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+              <ul>
+                <li>4 Hours</li>
+                <li>Pitch deck design</li>
+                <li>Financial projections</li>
+                <li>Invesors Q&A</li>
+                <li>5 investors contacts</li>
+              </ul>
+              <a href="https://forms.gle/CzJvyKpmccuwsebq9" target="_blank" class="btn-buy">Book Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <span class="featured">Featured</span>
+              <h3 style="color: #ff901c;">Fundraising</h3>
+              <div class="price"><sup>$</sup>390<span> / mo</span></div>
+              <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+              <ul>
+                <li>8 Hours</li>
+                <li>Access to +150 investors/VCs</li>
+                <li>Tools, Docs & Hacks</li>
+                <li>Financial Solutions</li>
+                <li>Fundraising</li>
+              </ul>
+              <a href="https://forms.gle/gu4FnY2bckHMno7T9" target="_blank" class="btn-buy">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>      
+
+    </section><!-- End Pricing Section -->
+     <!-- ======= Elfounder Show Section ======= -->
+ <section id="elfounder" class="recent-blog-posts">
+
+  <div class="container aos-init aos-animate" data-aos="fade-up">
+
+    <header class="section-header">
+      <h2>Elfounder Show</h2>
+      <p>Must watch</p>
+      <a href="https://calendly.com/ebrahemanwar/15min?month=2023-06" target="_blank" class="readmore stretched-link mt-auto"><span>See More & Subscribe</span><i class="bi bi-arrow-right"></i></a>
+
+    </header>
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-02.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Saturday, Nov 20, 2021</span>
+          <h3 class="post-title">El Founder - Ep 1 / Eng. Omar M. El Monayar - Sigma Fit</h3>
+          <a href="https://youtu.be/MNFPXXa1X5w" target="_blank" class="readmore stretched-link mt-auto"><span>Watch here</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-03.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Saturday, Nov 27, 2021</span>
+          <h3 class="post-title">El Founder - Ep 2 / Eng. Ahmed Khairy - Gameball Co</h3>
+          <a href="https://youtu.be/V0YBqRD1Yu0" target="_blank" class="readmore stretched-link mt-auto"><span>Watch here</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-01.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Saturday, Dec 4, 2021</span>
+          <h3 class="post-title">El Founder - Ep 3 / Eng. Mohamed Gamal - Kotobna Co</h3>
+          <a href="https://youtu.be/oG0_g4HMMAU" target="_blank" class="readmore stretched-link mt-auto"><span>Watch here</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Testimonials</h2>
+          <p>What they are saying about us</p>
+        </header>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Ibrahim has great knowledge of how to start/implementing a startup. He helped us in testing our idea to know if it fits the market with the lowest budget in the shortest time. He helped us also in framing our business model and revenue model, How to do the financial projection to validate the profitability of our idea and how and where to reach the investors/incubators to get investments.                </p>
+                <div class="profile mt-auto">
+                 
+                  <h3>Usama Atteya                  </h3>
+                  <h4>CEO & CO-Founder of Ordarak</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Ebrahem provided me with great insights on construction tech and the MENA ecosystem, he's sharp with incredible experience that he's always willing to share
+                </p>
+                <div class="profile mt-auto">
+                
+                  <h3>Rowan Alawi</h3>
+                  <h4>CEO of Amal</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Ibrahim is wonderful to work with and has exceptional expertise in leadership, coaching, motivation, Also he has unbelievable experience in business management we worked together on a project called Ordarak he was the business consultant for this project I remember his creativity and the ideas which he had offered to achieve the business goals, in addition to he helped me a lot when I started to shift my career as a Front End Developer besides this Ibrahim helped me to get my first job in Ordarak, Finally we worked together to help many people to shift their careers to Web development field.
+                </p>
+                <div class="profile mt-auto">
+                
+                  <h3>Ahmed Hussien</h3>
+                  <h4>Team Leader</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  The advice, consultations, and resources given are to the point and saves you a lot of time especially it comes from a market expert.
+                </p>
+                <div class="profile mt-auto">
+                  
+                  <h3>Muhammad Ezzat</h3>
+                  <h4>CEO of Fulltact</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  The Consultancy was more than perfect 
+                  I had the opportunity to get very important informations about how i make my business grow</p>
+                <div class="profile mt-auto">
+                 
+                  <h3>Ealam Haggag</h3>
+                  <h4>Owner of EHM trading and contracting</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  The Consultancy was more than perfect 
+                  I had the opportunity to get very important information about how i make my business grow</p>
+                <div class="profile mt-auto">
+                 
+                  <h3>Muhammad Abu Elgheit</h3>
+                  <h4>Founder & CEO at TechieMatter</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Eng.Ibrahim is really the person your looking for, if you feel hazzy about your plan and your project , so i can really & honestly recommend Eng. Ibrahim to guid you through your startup business.</p>
+                <div class="profile mt-auto">
+                  
+                  <h3>Mohamed Hossam</h3>
+                  <h4>CTO at mazadent</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Many definitions and concepts were novel for me, I started to use them in my business such as workbooks. Many important pieces of advice helped me in some tough times.</p>
+                  <div class="profile mt-auto">
+                  
+                  <h3>Yahia Zakaria</h3>
+                  <h4>CEO Majaz</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  It was helpful, insightful, and eye opening. The practicality of the advice given was far more powerful than most of the popular business training you can get out there these days. It helped me on different levels; instead of considering every department on its own, it linked everything together so that the outcome contributed a whole lot better to the vision of the organization.</p>
+                  <div class="profile mt-auto">
+                  
+                  <h3>Moustafa Elbehairy</h3>
+                  <h4>CEO Alex&Adam</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Well Planner, Organized and great supporter. 
+                 </p>
+                  <div class="profile mt-auto">
+                
+                  <h3>Mohamed Nabil</h3>
+                  <h4>CEO WideBot</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Ibrahim has great knowledge about building startups from ideation, bringing the product-market fit, building a killer pitch deck. He learned all this experience first hand while building and growing his own company “Elmawkaa” and he’s always generous with sharing his knowledge with the community.
+                 </p>
+                  <div class="profile mt-auto">
+                 
+                  <h3>Mostafa Elnahawy</h3>
+                  <h4>CEO Birdnest</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  After contact made with Ebrahim, things start to come really clear and he start to put our weakness very clear and visible to us by his analytical view of business, so I have to say it was very very worth it sessions that we go through.
+                 </p>
+                  <div class="profile mt-auto">
+                 
+                  <h3>Adel Ali</h3>
+                  <h4>Product Designer & Co-founder Klnda</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  I really appreciate the time I spent with Ebrahem, he is resourceful and I learned a lot from him. He gave me answers for too many questions. Most importantly he was direct in answering the questions without any delay or unimport talks. Thank you Ebrahem.                 </p>
+                  <div class="profile mt-auto">
+               
+                  <h3>Ismail Ameen</h3>
+                  <h4>Coaching Meetup Founder</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>It was such a unique experience to be mentored by Ebrahem. he has such a great passion for mentoring, supporting, and sharing his extensive knowledge and experience with others. I'm very grateful for all the guidance and mentoring he gave to me and I'll be always coming back for more. </p>
+                  <div class="profile mt-auto">
+                 
+                  <h3>Mohamed Ali Yousef</h3>
+                  <h4>CEO of ARCH.HOUSE Engineering Services</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>Ebrahim is one of the best consultants I've worked with. He is knowledgeable, professional, has great hands-on experience, and yet, he is humble. He saved us a lot of time while preparing for our investment seed round and he went with us beyond our expectations of the service he provides.</p>
+                  <div class="profile mt-auto">
+                  
+                  <h3>Moatasem Marzouk</h3>
+                  <h4>Founder & CEO of On Market</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>EbEbrahim is a helpful mentor & consultant with easy to reach contacts to ask for help, the program he presents is well designed with logical steps, personally, the financial sessions that he gave to me are the most beneficial thing.</p>
+                  <div class="profile mt-auto">
+                
+                  <h3>Mohamed Abbas</h3>
+                  <h4>Founder & CEO of Elkheta.com</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Who Behind</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="mx-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://twitter.com/EbrahemAnwar" target="_blank"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/EbrahemAnwarMohamed" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/ebrahemanwar" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ebrahemanwar" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>  
+              </div>
+              <div class="member-info">
+                <h4>Ebrahem Anwar</h4>
+                <span>Founder</span>
+                <p>Serial entrepreneur, 11 years of experience in business development,</br>
+                  CEO & Co-founder of Elmawkaa Company LLC one of the best-growing startups in the construction industry in Egypt.</br>
+                  Bachelor of Science in Civil Engineering and Diploma in Programming from ITI, "6 times founding team member, 5 times I participated in an accelerator and a business incubator, Mentor in three business incubators,
+                  Mentored over 100 startups, Twice the head of student activity",</br>
+                  I worked with several businesses as a Product and Growth Manager, providing training and consultation to support their growth.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Values</h2>
+          <p>Know-How values are the central, underlying philosophies that guide our business and its employees.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <h3>Honesty</h3>
+              <p>Act with uncompromising honesty and integrity in everything we do.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <h3>Satisfaction</h3>
+              <p>Satisfy our customers with innovative technology and superior quality, value, and service.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <h3>Respect</h3>
+              <p>Respect our social and physical environment around the world.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>171 El Tahrir, Downtown,<br>
+                    Cairo Governorate 11513,<br>
+                    Egypt</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+20 11111 97 906</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@know-how.business</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Saturday - Wednesday<br> 9:00AM - 05:00PM </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+           
+            <form action="https://formspree.io/f/mrgrgozr" method="POST" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Sign up to our newsletter, so you can be the first to find out the latest news, offers and tips about Busieness</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/xbjqjprw" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <!-- <img src="assets/img/logo.png" alt=""> -->
+              <span>Know-How</span>
+            </a>
+            <p>We offer modern solutions for growing your business
+              We are a team of talented Businessmen making a paradigm shift to Small & Medium companies</p>
+            <div class="social-links mt-3">
+              <a href="https://cutt.ly/Ic7avVA" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://cutt.ly/Xc7ajxF" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://cutt.ly/Uc7afY3" target="_blank" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+              <a href="https://cutt.ly/Jc7al5J" target="_blank" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+              <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> Business Managment</li>
+              <li><i class="bi bi-chevron-right"></i> Fundraising</li>
+              <li><i class="bi bi-chevron-right"></i> Business planning</li>
+              <li><i class="bi bi-chevron-right"></i> Marketing</li>
+              <li><i class="bi bi-chevron-right"></i> Sales</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              171 El Tahrir, Downtown, Abdeen,<br>
+              Cairo Governorate 11513,<br>
+              Egypt<br><br>
+              <strong>Phone:</strong> +20 11111 97 9065<br>
+              <strong>Email:</strong> info@know-how.business<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Know-How</span></strong>. All Rights Reserved 2023
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by Know-How</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
